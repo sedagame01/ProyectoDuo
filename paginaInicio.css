@@ -1,0 +1,27 @@
+button{
+    width: 70px;
+    height: 18px;
+}
+#tablero{
+    border: solid, rgb(255, 247, 4), 5px;
+    background-color: aqua;
+    
+}
+
+
+#tarjetero{
+    display: grid;
+    grid-template-columns: ifr, ifr, ifr;
+    background-color: blueviolet;
+}
+.marcoTarjeta{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+img{
+    width: 200px;
+    height: auto;
+}
+

@@ -3,9 +3,54 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Galeria de imagenes</title>
+    <link rel="stylesheet" href="paginaInicio.css">
 </head>
 <body>
+    <main>
+        <header class="top">
+            <h1>TITULO DE EJEMPLO</h1>
+            <form id="formulario" class="formulario">
+                <input id="busqueda" class="busqueda" placeholder="busqueda por categoria" type="search">
+                <button type="submit">buscar</button>
+            </form>
+            <nav id="enlaces">
+                <!-- FALTA PONER REL Y EL HREF DE LOS LINKS  -->
+                <a id="favoritos" class="enlace" target="_blank">FAVORITOS</a>
+                <a id="auxiliar" class="auxiliar" target="_blank">RESPALDO </a>
+            </nav>
+        </header>
+        <section id="tablero">
+            <H2>ESTOY POR ENCIMA DE LAS IMAGENES DE LA PORTADA</H2>
+            <div id="tarjetero">
+
+                <article class="tarjeta">
+                    <div class="marcoTarjeta">
+                        <img src="https://piensoprofine.es/wp-content/uploads/2018/06/gato-feliz.jpg.webp" alt="">
+                        <h3>titulo imagen</h3>
+                        <p>texto descripcion de la imagen</p>
+                    </div>
+                </article>
+
+                <article class="tarjeta">
+                    <div class="marcoTarjeta">
+                        <img src="https://piensoprofine.es/wp-content/uploads/2018/06/gato-feliz.jpg.webp" alt="">
+                        <h3>titulo imagen</h3>
+                        <p>texto descripcion de la imagen</p>
+                    </div>
+                </article>
+
+                <article class="tarjeta">
+                    <div class="marcoTarjeta">
+                        <img src="https://piensoprofine.es/wp-content/uploads/2018/06/gato-feliz.jpg.webp" alt="">
+                        <h3>titulo imagen</h3>
+                        <p>texto descripcion de la imagen</p>
+                    </div>
+                </article>  
+            </div>
+        </section>
+        <footer >soy el pie de pagina y tendre cosas</footer>
+    </main>
    <script src="paginaInicio.js"></script> 
 </body>
 </html>
