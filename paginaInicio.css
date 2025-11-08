@@ -4,10 +4,10 @@
     margin-bottom: 20px;
 }
 
-/* --- FORMULARIO: input + botón alineados en fila --- */
+
 .formulario {
     display: flex;
-    justify-content: center;   /* centra horizontalmente */
+    justify-content: center;   
     align-items: center;
     gap: 10px;
     margin-bottom: 15px;
@@ -23,7 +23,6 @@
     cursor: pointer;
 }
 
-/* --- Enlaces FAVORITOS + RESPALDO en línea y centrados --- */
 #enlaces {
     display: flex;
     justify-content: center;
@@ -31,14 +30,14 @@
     margin-top: 10px;
 }
 
-/* Estilo mínimo para enlaces */
+
 #enlaces a {
     text-decoration: none;
     font-weight: bold;
-    cursor: pointer;   /* ✅ aquí faltaba cerrar */
+    cursor: pointer;  
 }
 
-/* --- TARJETAS EN UNA FILA (GRID) --- */
+/* --- categorias --- */
 #tarjetero {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
